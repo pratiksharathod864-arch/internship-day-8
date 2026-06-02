@@ -1,25 +1,29 @@
-let vowel = 'A'
+let vowel = 'H'
 switch (vowel) {
-    case 'a':
     case 'A':
-        console.log("vowel is a")
+        console.log("vowel is a"+vowel)
         break;
-    case 'e':
     case 'E':
-        console.log("vowel is e")
+        console.log("vowel is e"+vowel)
         break;
-    case 'i':
     case 'I':
-        console.log("vowel is i")
+        console.log("vowel is i"+vowel)
         break;
-    case 'o':
     case 'O':
-        console.log("vowel is o")
+        console.log("vowel is o"+vowel)
         break;
-    case 'u':
     case 'U':
-        console.log("vowel is u")
+        console.log("vowel is u"+vowel)
         break;
     default:
         console.log("input is not a vowel")
 }
+
+
+
+
+let age = 20
+let status = age >= 18 ? "adult" : "minor"
+console.log(status)
+
+
